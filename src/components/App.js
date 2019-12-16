@@ -1,6 +1,6 @@
-import React from 'react';
-import '../styles/App.css';
-import Picsum from './Picsum';
+import React from "react";
+import "../styles/App.css";
+import Picsum from "./Picsum";
 
 export default function App() {
   return (
@@ -11,4 +11,3 @@ export default function App() {
     </div>
   );
 }
-
