@@ -11,10 +11,12 @@ export default class Picsum extends Component {
       fetch: false
     };
   }
+  
   componentDidMount() {
     this.fetchAsync();
     console.log("Component did Mount");
   }
+
   componentDidUpdate() {
     console.log("Component did update");
   }
